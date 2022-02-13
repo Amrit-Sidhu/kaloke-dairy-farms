@@ -1,0 +1,9 @@
+#c1c8e4  light blue
+#4f4a41 darks brown
+#6e6658 light brown
+
+#88bdbc background color
+#254e58 light green + blue combo color
+#112d32 darks  sea green it will be used for highlighting content
+
+#edf1fd also used for background color white shadow color
