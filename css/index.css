@@ -162,3 +162,16 @@ body {
   color: #222;
   text-transform: capitalize;
 }
+.navBarMobile {
+  width: 80vw;
+  height: 100%;
+  background-color: #edf1fd;
+  position: absolute;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  transition: 0.4s;
+}
+.show-navBarMobile {
+  transform: translateX(-100%);
+}
