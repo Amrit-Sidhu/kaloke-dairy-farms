@@ -171,7 +171,40 @@ body {
   top: 0;
   left: 0;
   transition: 0.4s;
+  padding: 70px 15px 20px 15px;
 }
 .show-navBarMobile {
   transform: translateX(-100%);
+}
+.navLinksMobile ul {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+.navLinksMobile ul li {
+  list-style-type: none;
+  cursor: pointer;
+  position: relative;
+  margin: 1px 0px;
+  width: 100%;
+}
+
+.navLinksMobile ul li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  font-weight: 500;
+  color: #112d32;
+  transition: 0.5s;
+  display: inline-block;
+  width: 100%;
+}
+.navLinksMobile ul li a:hover {
+  background-color: #112d32;
+  color: #edf1fd;
 }
