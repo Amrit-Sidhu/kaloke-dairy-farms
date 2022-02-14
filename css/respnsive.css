@@ -1,10 +1,10 @@
 @media (max-width: 480px) {
   #menuBar {
-    padding-left: calc(10px + 2vw);
-    padding-right: calc(10px + 2vw);
-    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.3);
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 0px !important;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+  }
+  #menuBar .row > .col-12 {
+    padding: 0px !important;
   }
 }
 
