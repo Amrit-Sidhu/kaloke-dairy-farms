@@ -18,10 +18,10 @@
     margin-top: 0px;
   }
   .bigHeading {
-    font-family: "Redressed", cursive;
-    color: #fff;
-    text-transform: capitalize;
     font-size: calc(30px + 2vw);
+  }
+  .headerLeftContent .text {
+    font-size: 15px;
   }
 }
 
@@ -34,6 +34,18 @@
     padding-left: calc(20px + 3vw);
     padding-right: calc(20px + 3vw);
   }
+  .header {
+    padding-bottom: 80px;
+  }
+  .bigHeading {
+    font-size: calc(40px + 2vw);
+  }
+  .headerLeftContent {
+    margin-top: 0px;
+  }
+  .header-padding {
+    padding-top: 100px;
+  }
 }
 @media (min-width: 768px) and (max-width: 1025px) {
   .navLinks ul li a {
@@ -44,5 +56,14 @@
   #menuBar {
     padding-left: calc(8px + 2vw);
     padding-right: calc(8px + 2vw);
+  }
+  .headerLeftContent {
+    margin-top: calc(30px + 1vw);
+  }
+  .bigHeading {
+    font-size: calc(35px + 2vw);
+  }
+  .header {
+    padding-bottom: 20px;
   }
 }

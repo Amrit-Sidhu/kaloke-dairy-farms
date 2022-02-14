@@ -38,6 +38,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 .navLinks ul li {
   list-style-type: none;
   cursor: pointer;
@@ -77,9 +78,8 @@ body {
 }
 
 .header {
-  position: relative;
   background-color: #88bdbc;
-  height: 90vh;
+  height: auto;
   width: 100%;
   padding-top: 130px;
 }
