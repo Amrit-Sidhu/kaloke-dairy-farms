@@ -273,7 +273,7 @@ body {
   padding-right: calc(40px + 4vw);
 }
 .headings {
-  font-size: calc(27px + 1vw);
+  font-size: calc(26px + 1vw);
   font-family: "Redressed", cursive;
   text-transform: capitalize;
 }
