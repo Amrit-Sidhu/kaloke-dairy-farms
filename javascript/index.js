@@ -1,5 +1,10 @@
 console.log("hello Amrit new  starts here..........");
-
+var loading = document.querySelector(".loading");
+console.log(loading);
+function loader() {
+  loading.style.display = "none";
+  console.log("rty");
+}
 //toggle mobile navbar
 (function toggleMobileNavBar() {
   let hamburger = document.querySelector(".hamburger");
