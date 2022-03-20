@@ -35,6 +35,9 @@
     font-size: 13px;
     top: 20px;
   }
+  .headings {
+    font-size: calc(15px + 1vw);
+  }
 }
 
 @media (max-width: 767px) and (min-width: 481px) {

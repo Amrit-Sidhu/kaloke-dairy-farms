@@ -28,3 +28,24 @@ function loader() {
     });
   });
 })();
+
+//function to change the background color of menu bar on scroll
+function changeMenuBackground() {
+  let menu = document.querySelector("#menuBar");
+  let img = document.querySelector(".logo img");
+
+  document.addEventListener("scroll", function () {
+    if (window.pageYOffset > 100) {
+      menu.style.paddingTop = "4px";
+      menu.style.paddingBottom = "4px";
+      menu.style.backgroundColor = "rgba(237, 241, 253, 0.7)";
+      img.style.width = "100px";
+    } else {
+      menu.style.paddingTop = "10px";
+      menu.style.paddingBottom = "10px";
+      menu.style.backgroundColor = "transparent";
+      img.style.width = "150px";
+    }
+  });
+}
+changeMenuBackground();

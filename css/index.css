@@ -71,12 +71,14 @@ body {
   padding: 10px 0px;
   padding-left: calc(25px + 2vw);
   padding-right: calc(25px + 2vw);
-  z-index: 1;
+  z-index: 3;
+  transition: 0.5s;
 }
 
 .logo img {
   width: 150px;
   height: auto;
+  transition: 0.4s;
 }
 #menuBar .col-12 {
   display: flex;
@@ -261,11 +263,12 @@ body {
   background-color: #112d32;
   color: #edf1fd;
 }
-.services {
+.services-section {
   min-height: 300px;
   width: 100%;
-  background-color: #f7f9fb;
+  /* background-color: #edf1fd; */
   position: relative;
+  padding: 20px 0px;
 }
 
 .custom-container {
