@@ -194,7 +194,7 @@ body {
   height: 100%;
   transform: translateX(-50%);
   z-index: -1;
-  background-color: #572f13;
+  background-color: #254e58;
   transition: 0.2s;
 }
 .headerLeftContent a:hover::after {
@@ -268,9 +268,10 @@ body {
   width: 100%;
   /* background-color: #edf1fd; */
   position: relative;
-  padding: 20px 0px;
 }
-
+.mg-t {
+  margin-top: 100px;
+}
 .custom-container {
   padding-left: calc(40px + 4vw);
   padding-right: calc(40px + 4vw);
@@ -279,4 +280,13 @@ body {
   font-size: calc(26px + 1vw);
   font-family: "Redressed", cursive;
   text-transform: capitalize;
+}
+.service {
+  background-color: #edf1fd;
+  border: 1px solid #dce3f7;
+  width: 100%;
+  height: 450px;
+  border-radius: 4px;
+  margin-top: 15px;
+  padding: 5px;
 }
