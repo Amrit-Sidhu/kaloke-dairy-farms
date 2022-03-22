@@ -289,3 +289,7 @@ body {
   margin-top: 15px;
   padding: 5px;
 }
+.service .img-box {
+  width: 100%;
+  padding: 5px;
+}
