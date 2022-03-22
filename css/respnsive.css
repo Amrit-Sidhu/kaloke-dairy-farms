@@ -48,6 +48,9 @@
     margin-right: auto;
     margin-top: 7px;
   }
+  .service-heading {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 481px) {

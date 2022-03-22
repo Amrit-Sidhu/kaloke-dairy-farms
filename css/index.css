@@ -293,3 +293,7 @@ body {
   width: 100%;
   padding: 6px;
 }
+.service .service-heading {
+  margin-top: 10px;
+  font-family: "Montserrat", sans-serif;
+}
