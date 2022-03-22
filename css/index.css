@@ -266,7 +266,6 @@ body {
 .services-section {
   min-height: 300px;
   width: 100%;
-  /* background-color: #edf1fd; */
   position: relative;
 }
 .mg-t {
@@ -282,8 +281,8 @@ body {
   text-transform: capitalize;
 }
 .service {
-  background-color: #edf1fd;
-  border: 1px solid #dce3f7;
+  background-color: #f7f9fb;
+  border: 1px solid #e5e9e9;
   width: 100%;
   height: 450px;
   border-radius: 4px;
