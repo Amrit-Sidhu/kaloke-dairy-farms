@@ -38,7 +38,7 @@ function changeMenuBackground() {
     if (window.pageYOffset > 100) {
       menu.style.paddingTop = "4px";
       menu.style.paddingBottom = "4px";
-      menu.style.backgroundColor = "rgba(237, 241, 253, 0.7)";
+      menu.style.backgroundColor = "rgba(237, 241, 253, 0.9)";
       img.style.width = "100px";
     } else {
       menu.style.paddingTop = "10px";
