@@ -51,6 +51,15 @@
   .service-heading {
     font-size: 20px;
   }
+  .para-text {
+    font-size: 13px;
+  }
+  .butn {
+    padding: 8px 28px;
+    font-size: 13px;
+    font-weight: 500;
+    margin: 0px 12px 12px 0px;
+  }
 }
 
 @media (max-width: 767px) and (min-width: 481px) {
